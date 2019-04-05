@@ -43,7 +43,7 @@ setup(
     include_package_data=True,
     keywords='ffdl-python-client',
     name='ffdl-client',
-    packages=find_packages(include=['ffdl']),
+    packages=find_packages(include=['ffdl', 'ffdl.client']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
